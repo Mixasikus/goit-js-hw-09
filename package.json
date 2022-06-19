@@ -4,18 +4,18 @@
   "description": "",
   "homepage": "https://github.com/Mixasikus/goit-js-hw-09.git",
   "scripts": {
-    "start": "https://github.com/Mixasikus/goit-js-hw-09.git",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09.git/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Mixasikus/goit-js-hw-09.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Mixasikus/goit-js-hw-09/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
