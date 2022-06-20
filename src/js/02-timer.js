@@ -2,11 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 
 const refs = {
-  inputDataTime: document.querySelector('input'),
+  inputDataTime: document.querySelector('input[datetime-picker]'),
 };
 
-refs.inputDataTime.addEventListener('input', () => {
-  console.log('click');
-});
-
-console.log(refs.inputDataTime);
+flatpickr(refs.inputDataTime, {});
