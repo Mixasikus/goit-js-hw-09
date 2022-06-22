@@ -2,7 +2,6 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 
-// Получаем элементы, содержащие компоненты даты
 const refs = {
   input: document.querySelector('#datetime-picker'),
   resetBtn: document.querySelector('[data-reset]'),
@@ -13,7 +12,7 @@ const refs = {
   seconds: document.querySelector('[data-seconds]'),
 };
 refs.btn.disabled = true;
-// Выделяем переменные для времени выбранной даты
+
 const currentTime = Date.now();
 let timeDifference = null;
 let endOfTime = null;
@@ -72,7 +71,6 @@ refs.resetBtn.addEventListener('click', () => {
 });
 
 function convertMs(ms) {
-  // Number of milliseconds per unit of time
   const second = 1000;
   const minute = second * 60;
   const hour = minute * 60;
